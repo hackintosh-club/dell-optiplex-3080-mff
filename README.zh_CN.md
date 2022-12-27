@@ -1,8 +1,8 @@
 
-## Dell OptiPlex 3080 Micro (3080MFF) Hackintosh OpenCore EFI
+## Dell OptiPlex 3080 Micro (3080MFF) 黑苹果 OpenCore EFI
 
 
-### [简体中文](README.zh_CN.md)
+### [English](README.md)
 
 
 
@@ -12,22 +12,22 @@
 
 
 
-### Spec
+### 机器配置
 
-- Model: Dell OptiPlex 3080 MFF
+- 型号: Dell OptiPlex 3080 MFF
 - BIOS: 2.16.0
-- Chipset: B460
-- CPU: Intel 10th i5-10500T
-- Memo: SK hynix 16GB(8GBx2) 3200 Mhz
-- GPU: Intel UHD630
+- 芯片组: B460
+- CPU: Intel 10代 i5-10500T
+- 内存: 海力士 16GB(8GBx2) 3200 Mhz
+- 显卡: Intel UHD630
 - 声卡: Realtek ALC3246(ALC256)
-- SSD: Kioxia 512G (KBG40ZNS) m.2 2230
-- LAN: Realtek RTL8111HSD-CG
-- WLAN: Intel 3165
+- SSD: 铠侠 Kioxia 512G (KBG40ZNS) m.2 2230
+- 网卡: Realtek RTL8111HSD-CG
+- 无线网卡: Wireless network card
 
 
 
-### BIOS
+### BIOS设置
 
 ```
 System Configuration
@@ -65,12 +65,12 @@ PowerManagement
 
 
 
-### Tools
+### 工具
 
 - [Hackintool](https://github.com/headkaze/Hackintool) 
-- [OpenCore Configurator](https://mackie100projects.altervista.org/opencore-configurator/) AKA OCC.
-- [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) Generate SMBIOS.
-- [MountEFI](https://github.com/corpnewt/MountEFI) Mount EFI partition.
-- [EFI Agent](https://github.com/headkaze/EFI-Agent) Better EFI partition mount App.
-- [gibMacOS](https://github.com/corpnewt/gibMacOS) Build your own MacOS image.
-- [ProperTree](https://github.com/corpnewt/ProperTree) Plist editor.
+- [OpenCore Configurator](https://mackie100projects.altervista.org/opencore-configurator/) 即 `OCC`。
+- [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) 三码生成工具。
+- [MountEFI](https://github.com/corpnewt/MountEFI) EFI 分区挂载工具。
+- [EFI Agent](https://github.com/headkaze/EFI-Agent) 更方便的EFI分区挂载工具。
+- [gibMacOS](https://github.com/corpnewt/gibMacOS) macOS 官方镜像下载工具。
+- [ProperTree](https://github.com/corpnewt/ProperTree) Plist 编辑器。

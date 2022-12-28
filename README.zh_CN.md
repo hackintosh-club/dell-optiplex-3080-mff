@@ -6,6 +6,13 @@
 
 
 
+### 可完美运行
+
+- macOS Monterey 12.x
+- macOS Ventura 13.x
+
+
+
 ### OpenCore
 
 [OpenCore 0.8.7](https://github.com/acidanthera/OpenCorePkg)
@@ -22,7 +29,7 @@
 - 声卡: Realtek ALC3246(ALC256)
 - 硬盘: 铠侠 Kioxia 512G (KBG40ZNS) m.2 2230
 - 网卡: Realtek RTL8111HSD-CG
-- 无线: Intel AX200 / BCM94360CS2
+- 无线: BCM94360CS2（白果拆机卡）
 - 电源: 戴尔 65W
 
 
@@ -79,6 +86,15 @@ DVMT     | SaSetup            | 0xF5    | 0x0     | 0x2
 - Change DVMT Address:0xF5 00（Default） Replace 02（64MB）
 ![sasetup.png](Screenshot/sasetup.png)
 
+
+
+### 系统截图
+
+![macOS Ventura](Screenshot/about.png)
+
+![Info](Screenshot/info.png)
+
+![Geekbench 5](Screenshot/geekbench5.png)
 
 
 

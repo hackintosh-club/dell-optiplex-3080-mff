@@ -6,6 +6,13 @@
 
 
 
+### Tested on
+
+- macOS Monterey 12.x
+- macOS Ventura 13.x
+
+
+
 ### OpenCore
 
 [OpenCore 0.8.7](https://github.com/acidanthera/OpenCorePkg)
@@ -22,7 +29,7 @@
 - 声卡: Realtek ALC3246(ALC256)
 - SSD: Kioxia 512G (KBG40ZNS) m.2 2230
 - LAN: Realtek RTL8111HSD-CG
-- WLAN: Intel AX200 / BCM94360CS2
+- WLAN: BCM94360CS2
 - PSU: DELL 65w
 
 
@@ -78,6 +85,16 @@ DVMT     | SaSetup            | 0xF5    | 0x0     | 0x2
 
 - Change DVMT Address:0xF5 00（Default） Replace 02（64MB）
 ![sasetup.png](Screenshot/sasetup.png)
+
+
+
+### Screenshot
+
+![macOS Ventura](Screenshot/about.png)
+
+![Info](Screenshot/info.png)
+
+![Geekbench 5](Screenshot/geekbench5.png)
 
 
 

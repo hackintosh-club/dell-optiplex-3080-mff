@@ -14,16 +14,16 @@
 
 ### 机器配置
 
-- 型号: Dell OptiPlex 3080 MFF
 - BIOS: 2.16.0
-- 芯片组: B460
-- CPU: Intel 10代 i5-10500T
-- 内存: 海力士 16GB(8GBx2) 3200 Mhz
-- 显卡: Intel UHD630
+- 主板: 戴尔 B460
+- 处理器: Intel 10代 i5-10500T
+- 内存: 海力士 16GB(2x8GB) DDR4 3200 Mhz
+- 显卡: 英特尔® 超核芯显卡 630
 - 声卡: Realtek ALC3246(ALC256)
-- SSD: 铠侠 Kioxia 512G (KBG40ZNS) m.2 2230
+- 硬盘: 铠侠 Kioxia 512G (KBG40ZNS) m.2 2230
 - 网卡: Realtek RTL8111HSD-CG
-- 无线网卡: Wireless network card
+- 无线: Intel AX200 / BCM94360CS2
+- 电源: 戴尔 65W
 
 
 
@@ -36,16 +36,49 @@ System Configuration
 Video
   |-- Primary Display: Intel HD Graphics
 
-Intel Software Guard Extension
-  |-- Intel SGX Enable: Disabled
+Security
+  |-- PTT Security/PTT On: Disabled
 
-Performance
-  |-- Intel TurboBoost: YES
+Secure Boot
+  |-- Secure Boot Enable: Disabled
+
+PSecure Boot
+  |-- Secure Boot Mode: Audit Mode
+
+Intel Software Guard Extensions
+  |-- Intel SGX Enable: Disabled
 
 PowerManagement
   |-- Deep Sleep Control: Disabled
-  |-- Block Sleep: YES
+  |-- USB Wake Support:   Disabled
+  |-- Wake on LAN/WLAN:   Lan only
+  |-- Block Sleep:        YES
+
+POST Behavior
+  |-- Fastboot: Minimal
+
+Virtualization Support
+  |-- VT For Direct I/O: Disabled
 ```
+
+
+
+### 注意
+
+- 使用 [OpenCore Configurator](https://mackie100projects.altervista.org/opencore-configurator/) 替换三码
+- 使用 [RU.efi](RU.efi) 解锁 `CFG LOCK` , 并修改核显参数 `DVMT = 64MB`
+
+Option   | UEFI Variable Name | Address | Default | Replace
+---------|--------------------|---------|---------|---------
+CFG LOCK | CPUSetup           | 0x3E    | 0x1     | 0x0
+DVMT     | SaSetup            | 0xF5    | 0x0     | 0x2
+
+- Unlock CFG LOCK Address:0x3E 01 (Enabled) Replace 00（Disabled）
+![cpusetup.png](Screenshot/cpusetup.png)
+
+- Change DVMT Address:0xF5 00（Default） Replace 02（64MB）
+![sasetup.png](Screenshot/sasetup.png)
+
 
 
 

@@ -14,16 +14,16 @@
 
 ### Spec
 
-- Model: Dell OptiPlex 3080 MFF
 - BIOS: 2.16.0
-- Chipset: B460
+- Chipset: DELL B460
 - CPU: Intel 10th i5-10500T
-- Memo: SK hynix 16GB(8GBx2) 3200 Mhz
-- GPU: Intel UHD630
+- Memo: SK hynix 16GB(2x8GB) DDR4 3200 Mhz
+- iGPU: Intel UHD Graphic 630
 - 声卡: Realtek ALC3246(ALC256)
 - SSD: Kioxia 512G (KBG40ZNS) m.2 2230
 - LAN: Realtek RTL8111HSD-CG
-- WLAN: Intel 3165
+- WLAN: Intel AX200 / BCM94360CS2
+- PSU: DELL 65w
 
 
 
@@ -36,16 +36,48 @@ System Configuration
 Video
   |-- Primary Display: Intel HD Graphics
 
-Intel Software Guard Extension
-  |-- Intel SGX Enable: Disabled
+Security
+  |-- PTT Security/PTT On: Disabled
 
-Performance
-  |-- Intel TurboBoost: YES
+Secure Boot
+  |-- Secure Boot Enable: Disabled
+
+PSecure Boot
+  |-- Secure Boot Mode: Audit Mode
+
+Intel Software Guard Extensions
+  |-- Intel SGX Enable: Disabled
 
 PowerManagement
   |-- Deep Sleep Control: Disabled
-  |-- Block Sleep: YES
+  |-- USB Wake Support:   Disabled
+  |-- Wake on LAN/WLAN:   Lan only
+  |-- Block Sleep:        YES
+
+POST Behavior
+  |-- Fastboot: Minimal
+
+Virtualization Support
+  |-- VT For Direct I/O: Disabled
 ```
+
+
+
+### Notice
+
+- Use [OpenCore Configurator](https://mackie100projects.altervista.org/opencore-configurator/) build your own SMBIOS
+- Use [RU.efi](RU.efi) Unlock `CFG LOCK` , Change `DVMT = 64MB`
+
+Option   | UEFI Variable Name | Address | Default | Replace
+---------|--------------------|---------|---------|---------
+CFG LOCK | CPUSetup           | 0x3E    | 0x1     | 0x0
+DVMT     | SaSetup            | 0xF5    | 0x0     | 0x2
+
+- Unlock CFG LOCK Address:0x3E 01 (Enabled) Replace 00（Disabled）
+![cpusetup.png](Screenshot/cpusetup.png)
+
+- Change DVMT Address:0xF5 00（Default） Replace 02（64MB）
+![sasetup.png](Screenshot/sasetup.png)
 
 
 

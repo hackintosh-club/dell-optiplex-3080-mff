@@ -5,18 +5,15 @@
 ### [English](README.md)
 
 
-
 ### 可完美运行
 
 - macOS Monterey 12.x
 - macOS Ventura 13.x
 
 
-
 ### OpenCore
 
 [OpenCore 0.8.7](https://github.com/acidanthera/OpenCorePkg)
-
 
 
 ### 机器配置
@@ -31,7 +28,6 @@
 - 网卡: Realtek RTL8111HSD-CG
 - 无线: BCM94360CS2（白果拆机卡）
 - 电源: 戴尔 65W
-
 
 
 ### BIOS设置
@@ -80,12 +76,11 @@ Option   | UEFI Variable Name | Address | Default | Replace
 CFG LOCK | CPUSetup           | 0x3E    | 0x1     | 0x0
 DVMT     | SaSetup            | 0xF5    | 0x0     | 0x2
 
-- Unlock CFG LOCK Address:0x3E 01 (Enabled) Replace 00（Disabled）
+- 解锁 `CFG LOCK`
 ![cpusetup.png](Screenshot/cpusetup.png)
 
-- Change DVMT Address:0xF5 00（Default） Replace 02（64MB）
+- 修改 `DVMT` 为 `64MB`
 ![sasetup.png](Screenshot/sasetup.png)
-
 
 
 ### 系统截图
@@ -95,7 +90,6 @@ DVMT     | SaSetup            | 0xF5    | 0x0     | 0x2
 ![Info](Screenshot/info.png)
 
 ![Geekbench 5](Screenshot/geekbench5.png)
-
 
 
 ### Kexts
@@ -109,9 +103,7 @@ DVMT     | SaSetup            | 0xF5    | 0x0     | 0x2
 - [NVMeFix.kext 1.1.0](https://github.com/acidanthera/NVMeFix)
 - [AppleALC.kext 1.7.7](https://github.com/acidanthera/AppleALC)
 - [RealtekRTL8111.kext 2.4.2](https://github.com/Mieze/RTL8111_driver_for_OS_X)
-- [USBMap.kext v1.0.0](https://github.com/corpnewt/USBMap)
 - [XHCI-unsupported.kext v0.9.2](https://github.com/hackintosh-efi/XHCI-unsupported)
-
 
 
 ### 工具

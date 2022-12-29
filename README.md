@@ -5,18 +5,15 @@
 ### [简体中文](README.zh_CN.md)
 
 
-
-### Tested on
+### Perfectly tested on
 
 - macOS Monterey 12.x
 - macOS Ventura 13.x
 
 
-
 ### OpenCore
 
 [OpenCore 0.8.7](https://github.com/acidanthera/OpenCorePkg)
-
 
 
 ### Spec
@@ -31,7 +28,6 @@
 - LAN: Realtek RTL8111HSD-CG
 - WLAN: BCM94360CS2
 - PSU: DELL 65w
-
 
 
 ### BIOS
@@ -69,7 +65,6 @@ Virtualization Support
 ```
 
 
-
 ### Notice
 
 - Use [OpenCore Configurator](https://mackie100projects.altervista.org/opencore-configurator/) build your own SMBIOS
@@ -80,12 +75,11 @@ Option   | UEFI Variable Name | Address | Default | Replace
 CFG LOCK | CPUSetup           | 0x3E    | 0x1     | 0x0
 DVMT     | SaSetup            | 0xF5    | 0x0     | 0x2
 
-- Unlock CFG LOCK Address:0x3E 01 (Enabled) Replace 00（Disabled）
+- Unlock `CFG LOCK`
 ![cpusetup.png](Screenshot/cpusetup.png)
 
-- Change DVMT Address:0xF5 00（Default） Replace 02（64MB）
+- Change `DVMT` to `64MB`
 ![sasetup.png](Screenshot/sasetup.png)
-
 
 
 ### Screenshot
@@ -95,7 +89,6 @@ DVMT     | SaSetup            | 0xF5    | 0x0     | 0x2
 ![Info](Screenshot/info.png)
 
 ![Geekbench 5](Screenshot/geekbench5.png)
-
 
 
 ### Kexts
@@ -109,9 +102,7 @@ DVMT     | SaSetup            | 0xF5    | 0x0     | 0x2
 - [NVMeFix.kext 1.1.0](https://github.com/acidanthera/NVMeFix)
 - [AppleALC.kext 1.7.7](https://github.com/acidanthera/AppleALC)
 - [RealtekRTL8111.kext 2.4.2](https://github.com/Mieze/RTL8111_driver_for_OS_X)
-- [USBMap.kext v1.0.0](https://github.com/corpnewt/USBMap)
 - [XHCI-unsupported.kext v0.9.2](https://github.com/hackintosh-efi/XHCI-unsupported)
-
 
 
 ### Tools

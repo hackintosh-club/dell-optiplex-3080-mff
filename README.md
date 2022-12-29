@@ -23,7 +23,7 @@
 - CPU: Intel 10th i5-10500T
 - Memo: SK hynix 16GB(2x8GB) DDR4 3200 Mhz
 - iGPU: Intel UHD Graphic 630
-- 声卡: Realtek ALC3246(ALC256)
+- HDA: Realtek ALC3246(ALC256)
 - SSD: Kioxia 512G (KBG40ZNS) m.2 2230
 - LAN: Realtek RTL8111HSD-CG
 - WLAN: BCM94360CS2

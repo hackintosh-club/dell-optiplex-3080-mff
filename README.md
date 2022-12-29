@@ -75,10 +75,12 @@ Option   | UEFI Variable Name | Address | Default | Replace
 CFG LOCK | CPUSetup           | 0x3E    | 0x1     | 0x0
 DVMT     | SaSetup            | 0xF5    | 0x0     | 0x2
 
-- Unlock `CFG LOCK`
+- Unlock `CFG LOCK` 
+
 ![cpusetup.png](Screenshot/cpusetup.png)
 
-- Change `DVMT` to `64MB`
+- Change `DVMT` to `64MB` 
+
 ![sasetup.png](Screenshot/sasetup.png)
 
 

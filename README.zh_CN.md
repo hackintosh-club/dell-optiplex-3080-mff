@@ -65,24 +65,23 @@ Virtualization Support
 ```
 
 
-
 ### 注意
 
-- 使用 [OpenCore Configurator](https://mackie100projects.altervista.org/opencore-configurator/) 替换三码
-- 使用 [RU.efi](RU.efi) 解锁 `CFG LOCK` , 并修改核显参数 `DVMT = 64MB`
+- 使用 [OpenCore Configurator](https://mackie100projects.altervista.org/opencore-configurator/) 替换三码 
+- 使用 [RU.efi](RU.efi) 解锁 `CFG LOCK` , 并修改核显参数 `DVMT = 64MB` 
 
 Option   | UEFI Variable Name | Address | Default | Replace
 ---------|--------------------|---------|---------|---------
 CFG LOCK | CPUSetup           | 0x3E    | 0x1     | 0x0
 DVMT     | SaSetup            | 0xF5    | 0x0     | 0x2
 
-- 解锁 `CFG LOCK` 
+- 解锁 `CFG LOCK`  
 
-![cpusetup.png](Screenshot/cpusetup.png)
+![cpusetup.png](Screenshot/cpusetup.png) 
 
-- 修改 `DVMT` 为 `64MB` 
+- 修改 `DVMT` 为 `64MB`  
 
-![sasetup.png](Screenshot/sasetup.png)
+![sasetup.png](Screenshot/sasetup.png) 
 
 
 ### 系统截图

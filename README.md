@@ -104,7 +104,7 @@ DVMT     | SaSetup            | 0xF5    | 0x0     | 0x2
 - [NVMeFix.kext 1.1.0](https://github.com/acidanthera/NVMeFix)
 - [AppleALC.kext 1.7.8](https://github.com/acidanthera/AppleALC)
 - [RealtekRTL8111.kext 2.4.2](https://github.com/Mieze/RTL8111_driver_for_OS_X)
-- [XHCI-unsupported.kext v0.9.2](https://github.com/hackintosh-efi/XHCI-unsupported)
+- [FeatureUnlock.kext 1.1.2](https://github.com/acidanthera/FeatureUnlock)
 
 
 ### Tools

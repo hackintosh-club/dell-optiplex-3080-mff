@@ -4,8 +4,9 @@
 
 ### [English](README.md)
 
-
 ### 可完美运行
+
+> 使用 Intel 无线网卡时需要根据系统版本在 `config.plist`中启用对应的 `AirportItlwm.kext` 驱动
 
 - macOS Monterey 12.x
 - macOS Ventura 13.x
@@ -26,7 +27,7 @@
 - 声卡: Realtek ALC3246(ALC256)
 - 硬盘: 铠侠 Kioxia 512G (KBG40ZNS) m.2 2230
 - 网卡: Realtek RTL8111HSD-CG
-- 无线: BCM94360CS2（白果拆机卡）
+- 无线: BCM94360CS2（白果拆机卡）/ Intel(R) Dual Band Wireless AC 3165
 - 电源: 戴尔 65W
 
 
@@ -96,13 +97,28 @@ DVMT     | SaSetup            | 0xF5    | 0x0     | 0x2
 ### Kexts
 
 - [Lilu.kext 1.6.7](https://github.com/acidanthera/Lilu)
+
 - [SMCProcessor.kext 1.3.2](https://github.com/acidanthera/VirtualSMC)
+
 - [SMCSuperIO.kext 1.3.2](https://github.com/acidanthera/VirtualSMC)
+
 - [SMCDellSensors.kext 1.3.2](https://github.com/acidanthera/VirtualSMC)
+
 - [VirtualSMC.kext 1.3.2](https://github.com/acidanthera/VirtualSMC)
+
 - [WhateverGreen.kext 1.6.6](https://github.com/acidanthera/WhateverGreen)
+
 - [AppleALC.kext 1.8.4](https://github.com/acidanthera/AppleALC)
+
 - [RealtekRTL8111.kext 2.4.2](https://github.com/Mieze/RTL8111_driver_for_OS_X)
+
+- [AirportItlwm.kext 2.2.0](https://github.com/OpenIntelWireless/itlwm)
+
+- [IntelBluetoothFirmware.kext 2.3.0](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
+
+- [BlueToolFixup.kext 2.6.8](https://github.com/acidanthera/BrcmPatchRAM)
+
+  
 
 
 ### 工具

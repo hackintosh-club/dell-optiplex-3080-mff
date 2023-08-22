@@ -4,8 +4,9 @@
 
 ### [简体中文](README.zh_CN.md)
 
-
 ### Perfectly tested on
+
+> When using an Intel wireless network card, you need to enable the corresponding `AirportItlwm.kext` driver in `config.plist` according to the system version
 
 - macOS Monterey 12.x
 - macOS Ventura 13.x
@@ -103,6 +104,9 @@ DVMT     | SaSetup            | 0xF5    | 0x0     | 0x2
 - [WhateverGreen.kext 1.6.6](https://github.com/acidanthera/WhateverGreen)
 - [AppleALC.kext 1.8.4](https://github.com/acidanthera/AppleALC)
 - [RealtekRTL8111.kext 2.4.2](https://github.com/Mieze/RTL8111_driver_for_OS_X)
+- [AirportItlwm.kext 2.2.0](https://github.com/OpenIntelWireless/itlwm)
+- [IntelBluetoothFirmware.kext 2.3.0](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
+- [BlueToolFixup.kext 2.6.8](https://github.com/acidanthera/BrcmPatchRAM)
 
 
 ### Tools

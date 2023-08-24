@@ -6,7 +6,7 @@
 
 ### Perfectly tested on
 
-> When using an Intel wireless network card, you need to enable the corresponding `AirportItlwm.kext` driver in `config.plist` according to the system version
+> When using Intel wireless network card, you need to select the corresponding `config.intel.wireless.*** .plist` according to the system version, and rename it to `config.plist`.
 
 - macOS Monterey 12.x
 - macOS Ventura 13.x

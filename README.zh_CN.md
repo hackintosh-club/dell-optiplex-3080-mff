@@ -6,7 +6,7 @@
 
 ### 可完美运行
 
-> 使用 Intel 无线网卡时需要根据系统版本在 `config.plist`中启用对应的 `AirportItlwm.kext` 驱动
+> 使用 Intel 无线网卡时需要根据系统版本选择对应的 `config.intel.wireless.***.plist` ，并改名为 `config.plist`
 
 - macOS Monterey 12.x
 - macOS Ventura 13.x

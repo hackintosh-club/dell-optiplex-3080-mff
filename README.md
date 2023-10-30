@@ -61,8 +61,6 @@ PowerManagement
 POST Behavior
   |-- Fastboot: Minimal
 
-Virtualization Support
-  |-- VT For Direct I/O: Disabled
 ```
 
 

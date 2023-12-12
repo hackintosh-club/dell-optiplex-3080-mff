@@ -14,7 +14,7 @@
 
 ### OpenCore
 
-[OpenCore 0.9.6](https://github.com/acidanthera/OpenCorePkg)
+[OpenCore 0.9.7](https://github.com/acidanthera/OpenCorePkg)
 
 
 ### 机器配置
@@ -100,7 +100,7 @@ DVMT     | SaSetup            | 0xF5    | 0x0     | 0x2
 - [SMCDellSensors.kext 1.3.2](https://github.com/acidanthera/VirtualSMC)
 - [VirtualSMC.kext 1.3.2](https://github.com/acidanthera/VirtualSMC)
 - [WhateverGreen.kext 1.6.6](https://github.com/acidanthera/WhateverGreen)
-- [AppleALC.kext 1.8.7](https://github.com/acidanthera/AppleALC)
+- [AppleALC.kext 1.8.8](https://github.com/acidanthera/AppleALC)
 - [RealtekRTL8111.kext 2.4.2](https://github.com/Mieze/RTL8111_driver_for_OS_X)
 - [AirportItlwm.kext 2.2.0](https://github.com/OpenIntelWireless/itlwm)
 - [IntelBluetoothFirmware.kext 2.3.0](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)

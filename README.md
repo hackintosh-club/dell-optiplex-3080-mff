@@ -10,11 +10,12 @@
 
 - macOS Monterey 12.x
 - macOS Ventura 13.x
+- macOS Sonoma 14.x
 
 
 ### OpenCore
 
-[OpenCore 0.9.7](https://github.com/acidanthera/OpenCorePkg)
+[OpenCore 0.9.9](https://github.com/acidanthera/OpenCorePkg)
 
 
 ### Spec
@@ -94,17 +95,17 @@ DVMT     | SaSetup            | 0xF5    | 0x0     | 0x2
 
 ### Kexts
 
-- [Lilu.kext 1.6.7](https://github.com/acidanthera/Lilu)
-- [SMCProcessor.kext 1.3.2](https://github.com/acidanthera/VirtualSMC)
-- [SMCSuperIO.kext 1.3.2](https://github.com/acidanthera/VirtualSMC)
-- [SMCDellSensors.kext 1.3.2](https://github.com/acidanthera/VirtualSMC)
-- [VirtualSMC.kext 1.3.2](https://github.com/acidanthera/VirtualSMC)
-- [WhateverGreen.kext 1.6.6](https://github.com/acidanthera/WhateverGreen)
-- [AppleALC.kext 1.8.8](https://github.com/acidanthera/AppleALC)
-- [RealtekRTL8111.kext 2.4.2](https://github.com/Mieze/RTL8111_driver_for_OS_X)
-- [AirportItlwm.kext 2.2.0](https://github.com/OpenIntelWireless/itlwm)
-- [IntelBluetoothFirmware.kext 2.3.0](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
-- [BlueToolFixup.kext 2.6.8](https://github.com/acidanthera/BrcmPatchRAM)
+- [Lilu.kext](https://github.com/acidanthera/Lilu)
+- [SMCProcessor.kext](https://github.com/acidanthera/VirtualSMC)
+- [SMCSuperIO.kext](https://github.com/acidanthera/VirtualSMC)
+- [SMCDellSensors.kext](https://github.com/acidanthera/VirtualSMC)
+- [VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC)
+- [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen)
+- [AppleALC.kext](https://github.com/acidanthera/AppleALC)
+- [RealtekRTL8111.kext](https://github.com/Mieze/RTL8111_driver_for_OS_X)
+- [AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm)
+- [IntelBluetoothFirmware.kext](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
+- [BlueToolFixup.kext](https://github.com/acidanthera/BrcmPatchRAM)
 
 
 ### Tools

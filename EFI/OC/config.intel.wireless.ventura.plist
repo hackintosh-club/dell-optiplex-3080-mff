@@ -457,9 +457,9 @@
 				<key>CustomPciSerialDevice</key>
 				<false/>
 				<key>CustomSMBIOSGuid</key>
-				<false/>
-				<key>DisableIoMapper</key>
 				<true/>
+				<key>DisableIoMapper</key>
+				<false/>
 				<key>DisableIoMapperMapping</key>
 				<false/>
 				<key>DisableLinkeditJettison</key>
@@ -534,7 +534,7 @@
 				<key>PickerVariant</key>
 				<string>OC\m1</string>
 				<key>PollAppleHotKeys</key>
-				<false/>
+				<true/>
 				<key>ShowPicker</key>
 				<true/>
 				<key>TakeoffDelay</key>
@@ -758,7 +758,7 @@
 			<key>UpdateSMBIOS</key>
 			<true/>
 			<key>UpdateSMBIOSMode</key>
-			<string>Create</string>
+			<string>Custom</string>
 			<key>UseRawUuidEncoding</key>
 			<false/>
 		</dict>
@@ -775,9 +775,9 @@
 				<key>JumpstartHotPlug</key>
 				<false/>
 				<key>MinDate</key>
-				<integer>0</integer>
+				<integer>-1</integer>
 				<key>MinVersion</key>
-				<integer>0</integer>
+				<integer>-1</integer>
 			</dict>
 			<key>AppleInput</key>
 			<dict>

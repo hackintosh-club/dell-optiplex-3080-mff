@@ -11,11 +11,12 @@
 - macOS Monterey 12.x
 - macOS Ventura 13.x
 - macOS Sonoma 14.x
+- macOS Sequoia 15.x
 
 
 ### OpenCore
 
-[OpenCore 1.0.2](https://github.com/acidanthera/OpenCorePkg)
+[OpenCore 1.0.3](https://github.com/acidanthera/OpenCorePkg)
 
 
 ### 机器配置
